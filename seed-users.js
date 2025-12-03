@@ -48,7 +48,8 @@ const db = admin.firestore();
 (async function main() {
   try {
     const raw = fs.readFileSync(SEED_FILE, 'utf8');
-    const users = JSON.parse(raw);
+    const parsed = JSON.parse(raw);
+    const users = Array.isArray(parsed) ? parsed : parsed.users;
     console.log('Usuarios a procesar:', users.map(u => u.uid).join(', '));
 
     for (const u of users) {
