@@ -18,17 +18,17 @@
 ## ARCHIVOS PRINCIPALES
 
 ```
-✅ firestore.rules              Security Rules
-✅ firestore.indexes.json       Índices
-✅ functions/index.js           Cloud Functions
-✅ functions/package.json       Dependencias
-✅ firebase.json                Config Firebase
-✅ .firebaserc                  Proyecto
-✅ .gitignore                   Archivos ignorados
-✅ .env.example                 Variables de entorno
-✅ package.json                 Dependencias
-✅ seed-users.json              Usuarios (LISTO)
-✅ .github/workflows/deploy.yml CI/CD
+ firestore.rules              Security Rules
+ firestore.indexes.json       Índices
+ functions/index.js           Cloud Functions
+ functions/package.json       Dependencias
+ firebase.json                Config Firebase
+ .firebaserc                  Proyecto
+ .gitignore                   Archivos ignorados
+ .env.example                 Variables de entorno
+ package.json                 Dependencias
+ seed-users.json              Usuarios (LISTO)
+ .github/workflows/deploy.yml CI/CD
 ```
 
 ---
@@ -67,7 +67,7 @@ Después del deployment:
 
 ##  ARCHIVOS SEGUROS (NO SUBIR A GIT)
 
-⚠️ Nunca subas a GitHub:
+Nunca subas a GitHub:
 - `.env.local` (variables de entorno)
 - `seed-users.json` (contraseñas)
 - `service-account-key.json` (credenciales)
@@ -92,6 +92,6 @@ Una vez deployado, podrás medir:
 
 **Proyecto**: CRYD Sistema Gestor
 **Versión**: 1.0.0
-**Estado**: ✅ COMPLETADO
+**Estado**:  COMPLETADO
 **Fecha**: 2 de Diciembre de 2025
-**Próximo paso**: `firebase deploy`
+

@@ -100,29 +100,29 @@ https://cryd-production.web.app
 ##  CARACTERÍSTICAS INCLUIDAS
 
 ### Para Coordinadores
-✅ Registrar turnos
-✅ Seguimiento horario
-✅ Ver progreso
-✅ Registrar extras
-✅ Exportar datos
+ Registrar turnos
+ Seguimiento horario
+ Ver progreso
+ Registrar extras
+ Exportar datos
 
 ### Para Administrador
-✅ Dashboard real-time
-✅ Ver todas las cuadrillas
-✅ Generar reportes
-✅ Configurar metas
-✅ Gestionar usuarios
-✅ Análisis de tendencias
+ Dashboard real-time
+ Ver todas las cuadrillas
+ Generar reportes
+ Configurar metas
+ Gestionar usuarios
+ Análisis de tendencias
 
 ---
 
 ##  SEGURIDAD
 
-✅ Firestore Security Rules
-✅ Validación en Cloud Functions
-✅ Hashing con bcrypt
-✅ Custom tokens Firebase
-✅ Auditoría completa
-✅ SSL/TLS automático
+ Firestore Security Rules
+ Validación en Cloud Functions
+ Hashing con bcrypt
+ Custom tokens Firebase
+ Auditoría completa
+ SSL/TLS automático
 
 ---

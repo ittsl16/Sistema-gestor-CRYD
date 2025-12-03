@@ -47,7 +47,7 @@
 | **Cuadrilla**       | Turno mixto                  |
 ---
 
-## 👨‍💼 ADMINISTRADOR
+##  ADMINISTRADOR
 
 | Campo               | Valor                |
 |---------------------|--------------------- |
