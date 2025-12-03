@@ -1,0 +1,21 @@
+{
+  "name": "cryd-sistema-gestor",
+  "version": "1.0.0",
+  "description": "Sistema Gestor de Turnos - CRYD",
+  "main": "index.html",
+  "scripts": {
+    "serve": "firebase emulators:start",
+    "deploy": "firebase deploy",
+    "deploy:hosting": "firebase deploy --only hosting",
+    "deploy:functions": "firebase deploy --only functions",
+    "deploy:firestore": "firebase deploy --only firestore:rules",
+    "start": "npm run serve"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "firebase-tools": "^12.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}

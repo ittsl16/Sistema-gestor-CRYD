@@ -1,0 +1,58 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "cuadrillas",
+      "queryScope": "Collection",
+      "fields": [
+        {
+          "fieldPath": "coordinatorId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "cuadrillas",
+      "queryScope": "Collection",
+      "fields": [
+        {
+          "fieldPath": "isLate",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": [
+    {
+      "collectionGroup": "users",
+      "fieldPath": "role",
+      "indexes": [
+        {
+          "order": "ASCENDING",
+          "queryScope": "Collection"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "reports",
+      "fieldPath": "date",
+      "indexes": [
+        {
+          "order": "ASCENDING",
+          "queryScope": "Collection"
+        },
+        {
+          "order": "DESCENDING",
+          "queryScope": "Collection"
+        }
+      ]
+    }
+  ]
+}
