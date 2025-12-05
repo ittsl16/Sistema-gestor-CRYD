@@ -1338,7 +1338,7 @@
                         <!-- Manage Users (Admin only) -->
                         <div id="admin-user-management" style="margin-top:10px; background: rgba(255,255,255,0.03); padding:10px; border-radius:6px;">
                             <h4>Gestión de Usuarios</h4>
-                            <p>Como administrador puedes crear, editar o eliminar cuentas de usuario en la colección <code>users</code>. <strong>Nota:</strong> Esto solo gestiona documentos en Firestore; para crear cuentas de Auth y asignar custom claims, usa Cloud Functions (ejemplo abajo).</p>
+                            <p>Como administrador puedes crear, editar o eliminar cuentas de usuario en la colección <code>users</code>. </p>
                             <form id="admin-create-user-form" style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
                                 <input type="text" id="admin-new-user-id" placeholder="ID (ej: 23721 o A001)" style="min-width:160px;" required />
                                 <input type="email" id="admin-new-user-email" placeholder="Email (opcional)" style="min-width:220px;" />
@@ -1363,7 +1363,7 @@
                                 <h5>Usuarios existentes</h5>
                                 <div id="admin-users-list">Cargando usuarios...</div>
                             </div>
-                            <div style="margin-top:8px; font-size:0.85rem; color:#666;">Opciones adicionales: puedes sincronizar con Auth mediante Cloud Functions para crear la cuenta en Firebase Auth y asignar custom claims.</div>
+                            <div style="margin-top:8px; font-size:0.85rem; color:#666;"></div>
                         </div>
                         <div style="margin-top:8px; display:flex; gap:10px; align-items:center;">
                             <button class="export-btn" id="admin-save-config">💾 Guardar cambios</button>
